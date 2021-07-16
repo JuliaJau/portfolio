@@ -29,3 +29,46 @@ body {
   color: white;
   text-decoration: none;
 }
+
+main {
+  display: block;
+}
+
+.hero {
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 450px;
+  color: white;
+  font-size: 4em;
+  display: grid;
+  grid-template-columns: 100px 1fr 1fr 500px;
+}
+
+.introtext {
+  grid-column-start: 1;
+  grid-column: 2 / 4;
+}
+
+.img-intro {
+  margin: auto;
+  grid-column-start: 4;
+  grid-row: 1;
+}
+
+.about {
+  grid-column-start: 3;
+  grid-row: 2;
+  color: white;
+  font-size: 0.4em;
+  font-weight: lighter;
+  line-height: 1.6em;
+}
+
+.about li {
+  list-style-type: none;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 1.1em;
+}
