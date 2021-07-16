@@ -1,14 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Work+Sans&display=swap");
 
 body {
   background-color: black;
   font-family: "IBM Plex Mono", monospace;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
 }
 
 .nav ul > :first-child {
