@@ -3,3 +3,29 @@
 *::after {
   box-sizing: border-box;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Work+Sans&display=swap");
+
+body {
+  background-color: black;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.nav ul > :first-child {
+  grid-column-start: 2;
+}
+
+.nav ul {
+  list-style-type: none;
+  font-size: 1.5em;
+  color: white;
+  margin: 0;
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: auto repeat(3, 150px);
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
